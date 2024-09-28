@@ -11,6 +11,7 @@ docgen.js
 tsconfig.json
 package-lock.json
 typedoc.json
+.gitignore
 
 assets/
 test.gif

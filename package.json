@@ -20,7 +20,8 @@
   },
   "scripts": {
     "test": "tsc ./test/test.ts && node ./test/test.js",
-    "build": "tsc"
+    "build": "tsc",
+    "doc": "node docgen.js"
   },
   "author": "hitomihiumi",
   "license": "MIT",

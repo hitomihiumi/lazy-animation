@@ -9,6 +9,7 @@ async function main() {
         output: 'public',
         jsonName: 'docs.json',
         packageVersion: version,
+        name: 'lazyanimation',
         clean: true,
     });
 
