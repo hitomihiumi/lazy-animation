@@ -1,0 +1,16 @@
+.idea
+node_modules
+test/
+docs-out/
+src/
+public/
+
+docgen.js
+*.ts
+!*.d.ts
+tsconfig.json
+package-lock.json
+typedoc.json
+
+assets/
+test.gif

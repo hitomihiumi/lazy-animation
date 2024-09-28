@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@hitomihiumi/lazy-canvas": "^1.4.1",
+    "gif-frames": "^1.0.1",
+    "gifenc": "^1.0.3"
+  },
+  "devDependencies": {
+    "@hitomihiumi/micro-docgen": "^0.2.1",
+    "typedoc": "^0.26.4",
+    "tslib": "^2.6.3",
+    "typescript": "5.4.5"
+  },
+  "name": "@hitomihiumi/lazy-animation",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test",
+    "lib": "dist"
+  },
+  "scripts": {
+    "test": "tsc ./test/test.ts && node ./test/test.js",
+    "build": "tsc"
+  },
+  "author": "hitomihiumi",
+  "license": "MIT",
+  "description": "Plugin for LazyCanvas, designed to provide animated image creation functionality"
+}
