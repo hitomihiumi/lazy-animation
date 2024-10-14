@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@hitomihiumi/lazy-canvas": "^1.4.1",
+    "@hitomihiumi/lazy-canvas": "^1.5.1",
     "gif-frames": "^1.0.1",
     "gifenc": "^1.0.3"
   },
@@ -11,7 +11,7 @@
     "typescript": "5.4.5"
   },
   "name": "@hitomihiumi/lazy-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "directories": {

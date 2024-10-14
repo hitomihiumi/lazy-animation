@@ -1,5 +1,6 @@
 import { IFrame } from "./types";
-import {LazyCanvasLayer, Path2DLayer, LazyError, LazyCanvas} from "@hitomihiumi/lazy-canvas";
+import {LazyCanvasLayer, Path2DLayer, LazyError, LazyCanvas, BaseLayer} from "@hitomihiumi/lazy-canvas";
+import { Base } from "@hitomihiumi/lazy-canvas";
 
 export class Frame {
     public data: IFrame;
@@ -19,7 +20,7 @@ export class Frame {
         return this;
     }
 
-    public addLayers(...layers: Partial<LazyCanvasLayer | Path2DLayer>[]): Frame {
+    public addLayers(...layers: Partial<BaseLayer<Base> | Path2DLayer>[]): Frame {
         for (const layer of layers) {
             this.data.layers.push(layer as LazyCanvasLayer);
         }

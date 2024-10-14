@@ -1,4 +1,4 @@
-import { LazyCanvasLayer, Path2DLayer, Font } from "@hitomihiumi/lazy-canvas";
+import { LazyCanvasLayer, Path2DLayer } from "@hitomihiumi/lazy-canvas";
 import { Frame } from "./Frame";
 
 export interface IFrame {
